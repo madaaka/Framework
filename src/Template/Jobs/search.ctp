@@ -44,19 +44,17 @@
     echo $oneJob["Frist"];
     echo '</p>
                             </div>
-                            <div class="modal-footer">
-                                
-            <form method="get" action="bewerben.php">
-                <input type="submit" class="btn btn-warning" value="Sich bewerben"/>
-                <input type="hidden" name="jobTitel" value="';
+                            <div class="modal-footer">';
+            echo $this->Form->create($oneJob, ['action' => 'bewerben']).'<input type="submit" class="btn btn-warning" value="Sich bewerben"/><input type="hidden" name="jobTitel" value="';
     echo $oneJob["Jobtitel"];
     echo '"/>
         
         <input type="hidden" name="ID" value="';
     echo $oneJob["ID"];
-    echo '"/>
+    echo '"/>';
         
-            </form>
+            echo $this->Form->end();
+            echo '
                             </div>
                         </div>
                     </div>

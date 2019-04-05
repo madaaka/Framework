@@ -7,11 +7,13 @@ and open the template in the editor.
     Created on : 19.01.2019, 20:53:11
     Author     : Madaa
 */
-
+.btn-lg{
+  display:block
+}
 
 #start_page, #bewerben_page
 {
-    background-color: #ffd9b3
+    background-color: #f2f2f2
 }
 
 h4
@@ -161,7 +163,7 @@ body {
   }
   .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #343333;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;

@@ -15,7 +15,7 @@ class JobsController extends AppController
 
      public function initialize(){
         parent::initialize();
-        $this->Auth->allow(['search']);
+        $this->Auth->allow(['search', 'bewerben']);
         
     }
 
@@ -24,6 +24,15 @@ class JobsController extends AppController
         $this->viewBuilder()->setTemplate('search');
         
         $this->set('jobs', $jobs);
+    }
+
+    public function bewerben($id = null){
+        $this->viewBuilder()->setTemplate('bewerben');
+        if($this->request->is('post') && $this->request->getData('doc')){
+            $data = $this->request->getData();
+            $doc = $data['doc'];    
+        }
+        
     }
 
     /**

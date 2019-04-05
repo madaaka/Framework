@@ -16,7 +16,9 @@
                 <li>
                 	<?= $this->Html->link('REGISTRIEREN', ['controller' => 'Benutzer', 'action' => 'add', '_full' => true]);?>
                 </li>
-                <li><a href="#about">ÜBER UNS</a></li>
+                <li>
+                    <?= $this->Html->link(__('ÜBER UNS'), ['controller' => 'Benutzer', 'action' => 'about']) ?>
+                </li>
                 <li class="nav-item dropdown">
     				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
     					SPRACHEN <i class="fas fa-ellipsis-v"></i>

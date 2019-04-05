@@ -14,8 +14,13 @@ class BenutzerController extends AppController
 {
     public function initialize(){
         parent::initialize();
-        $this->Auth->allow(['start', 'add']);
+        $this->Auth->allow(['start', 'add', 'about']);
         
+    }
+
+    public function about(){
+        $this->viewBuilder()->setLayout(false);
+        $this->viewBuilder()->setTemplate('about');
     }
 
     public function start(){

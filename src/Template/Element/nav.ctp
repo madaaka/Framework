@@ -10,23 +10,27 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
+
                 <li>
-                	<?= $this->Html->link('EINLOGGEN', ['controller' => 'Benutzer', 'action' => 'login', '_full' => true]);?>
+                    <a href="../../index.php">HOME</a>
                 </li>
                 <li>
-                	<?= $this->Html->link('REGISTRIEREN', ['controller' => 'Benutzer', 'action' => 'add', '_full' => true]);?>
+                    <?= $this->Html->link('EINLOGGEN', ['controller' => 'Benutzer', 'action' => 'login', '_full' => true]);?>
+                </li>
+                <li>
+                    <?= $this->Html->link('REGISTRIEREN', ['controller' => 'Benutzer', 'action' => 'add', '_full' => true]);?>
                 </li>
                 <li>
                     <?= $this->Html->link(__('ÜBER UNS'), ['controller' => 'Benutzer', 'action' => 'about']) ?>
                 </li>
                 <li class="nav-item dropdown">
-    				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-    					SPRACHEN <i class="fas fa-ellipsis-v"></i>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Deuscth</a>
-						<a class="dropdown-item" href="#">Englisch</a>
-						<a class="dropdown-item" href="#">Französisch</a>
-					</div>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        SPRACHEN <i class="fas fa-ellipsis-v"></i>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Deuscth</a>
+                        <a class="dropdown-item" href="#">Englisch</a>
+                        <a class="dropdown-item" href="#">Französisch</a>
+                    </div>
                 </li>
             </ul>
 

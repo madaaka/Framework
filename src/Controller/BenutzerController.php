@@ -14,7 +14,7 @@ class BenutzerController extends AppController
 {
     public function initialize(){
         parent::initialize();
-        $this->Auth->allow(['start', 'add', 'about']);
+        $this->Auth->allow(['start', 'add', 'about','index']);
         
     }
 

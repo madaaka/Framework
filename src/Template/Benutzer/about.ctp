@@ -2,13 +2,13 @@
 <html>
 <head>
 	<?= $this->Html->css(['about/style.css', 'about/bootstrap.min.css', 'about/all.min.css']) ?>
-	<title>elegia Start</title>
+	<title>Kamer Jobs -  About</title>
 </head>
 <body>
 	<header class="bg-white container-fluid">
 		<div class="cover">
 			<div class="container-fluid" style="padding-top: 10px">
-				<div class="row">
+				<!--div class="row">
 					<div class="col-md-2"></div>
 				    <div class="logo mx-auto"></div>
 				    <div class="col-md-2">
@@ -16,18 +16,18 @@
 				    		<div class="git float-right"></div>
 				    	</a>
 				    </div>
-				</div>
+				</div-->
 			</div>
+
 			<div class="labels">
-				<span>JOB</span>
-				<span>FRUITS</span>
-				<span>SNACKS</span>
-				<span>DRINKS</span>
+				<span>JOBS</span>
+				<span>FOR</span>
+				<span>ALL</span>
 			</div>
 			<div class="row" style="max-width: 100%">
 				<div class="col-md-6"></div>
 				<div class="col-md-6 flot-right delivered-block bg-danger-transparent text-light">
-					<span>and <b>much more</b> delivered to your office door</span>
+					<span>and <b>much more</b> Experience</span>
 				</div>
 			</div>
 		</div>
@@ -42,7 +42,7 @@
 					<div class="col-md-8">
 						<span class="custom-text text-dark">
 							<h1>Was machen wir?</h1>
-							"Elegia" agiert als Vermittler zwischen Unternehmen (als Internetbenutzer) und den Lebensmittel-Lieferanten. Wir entwickeln <b>ein auf das Onlinebestellen und Liefern von Essen und Getraenken spezialisiertes Produkt</b> im Rahmen von Lehrveranstaltung Frameworks. Wir wolllen damit das Verfahren für die Unternehmen sowie fuer die Lieferanten vereinfachen, indem die Rechnungs-, Bestellungs- und Bearbeitungsprozesse mithilfe von Web-Applikation digitalisiert werden. 
+							"KamerJob" ist ein kleines Startup- Unternehmen, das als Jobvermittler entwickelt wurde. Bei Kamerjob stehen Jobsuchende an erster Stelle: Sie können also kostenlos nach Stellenanzeigen suchen, Ihre Unterlagen hochladen und erhalten Informationen zu Unternehmen. Diese Webseite sollte dabei helfen, Menschen ihren Traumjob zu finden.  
 						</span>
 					</div>
 				</div>
@@ -54,7 +54,7 @@
 					<div class="col-md-8">
 						<span class="custom-text text-dark">
 							<h1>Für wen machen wir?</h1>
-							Es orientiert sich vor allem auf <b>kleine und mittlere Unternehmen</b>, die fuer ihre Mitarbeiter Obste, Wasser und Snacks bestellen. Die andere Seite in dem Prozess sind die Lager, die den Unternehmen die Gueter anbieten. Die Gueter werden direkt ins Buero geliefert. Das Unternehmen als Stammkunde bekommt Rabate, Neuigkeiten und vieles mehr.
+							Es orientiert sich vor allem auf <b>Menschen</b>, die in der Suche sind, neue Arbeitsplaetze zu finden. Oder Menschen, die Arbeitlos sind. Die andere Seite in dem Prozess der Bewerbung ist, dass die Person, die Stellen sucht dabei auch Informationen über die Unternehmen, die bereits existieren, erhalten kann. Die Stellen sind nach Regionen und Kategorien aufgelistet und erleichtet somit den Prozess der Bewerbung. 
 						</span>
 					</div>
 					<div class="col-md-4">
@@ -92,16 +92,10 @@
 						<div class="col-md-12 text-left" style="font-weight: 100">
 							<ul>
 								<li>
-									<a class="text-white" href="https://github.com/rodchenk/">Mykhailo Rodchenkov</a>
+									<a class="text-white" href="https://github.com/madaaka/">Danielle Mada'a Kamta</a>
 								</li>
 								<li>
-									<a class="text-white" href="#">Nikita Ivachshenko</a>
-								</li>
-								<li>
-									<a class="text-white" href="#">Thi Ngoc Thi Nguyen</a>
-								</li>
-								<li>
-									<a class="text-white" href="#">Siti Rizki Adhaila Ilyas</a>
+									<a class="text-white" href="#">Sah Versheri</a>
 								</li>
 							</ul>
 						</div>
@@ -150,14 +144,15 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12 margin-top-15">
-							<b class="text-secondary">Author: </b> <span style="font-weight: 100">rodchenk@th-brandenburg.de</span>
+							<b class="text-secondary">Author: </b> <span style="font-weight: 100">madaaka@th-brandenburg.de</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-2">
 					<div class="row">
 						<div class="col-md-12">
-							<?= $this->Html->image('../img/about/logologo.png', ['class' => 'img-fluid']) ?>
+							<a class="im_start" href="../index.php">
+							<img src="/img/web_hi_res_512.png" alt="Kamer Jobs Logo" height="150" width="150" class="im_start">    </a>
 						</div>
 					</div>
 					<div class="row" style="margin-top: 15px">
